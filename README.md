@@ -75,6 +75,41 @@ This project demonstrates core Active Directory management tasks:
 
 <img width="866" height="533" alt="Screenshot 2026-09-20 192045" src="https://github.com/user-attachments/assets/5465afc6-0d5b-43b3-a180-2c09bdcb2e00" />
 
+---
+
+## Deploying Group Policy Object (GPO)
+A group policy object (GPO) is a set of security settings, user settings, permissions, and policy settings that you can apply to users and computers in AD.
+1. Click on tools and "Group Policy Management'
+  
+3. Extend your domain, right click, and Pick 'Create a GPO in this domain..'
+   
+<img width="873" height="593" alt="Screenshot 2026-09-21 135839" src="https://github.com/user-attachments/assets/0dc88731-a4c4-4710-9edb-51ebb8c2630c" />
+
+4. Name it and click on edit
+
+<img width="646" height="258" alt="Screenshot 2026-09-21 135957" src="https://github.com/user-attachments/assets/d51ab55d-9a7c-43ca-bb15-4a02630d28ed" />
+
+6. Click on user configuration > Policies > Administrative > and prohibit access to control panel
+
+ <img width="771" height="443" alt="Screenshot 2026-09-21 140138" src="https://github.com/user-attachments/assets/8cc1800b-58eb-4f70-acc3-7e6d0185dd01" />
+ 
+7. Set the setting to 'enable'
+
+<img width="809" height="538" alt="Screenshot 2026-09-21 140204" src="https://github.com/user-attachments/assets/f28cde4b-bdd9-43c7-b81d-bb1b90c1e79e" />
+
+8. Right click the sales OU and click on 'link an existing GPO' and choose the GPO. Basically the GPO policy is only for user in sales.
+
+<img width="763" height="152" alt="Screenshot 2026-09-21 140958" src="https://github.com/user-attachments/assets/696942fe-b218-456d-a735-6a93b690bb53" />
+
+9. Now login in as sale user and try to open control panel, you'll get error.
+
+<img width="763" height="152" alt="Screenshot 2026-09-21 140958" src="https://github.com/user-attachments/assets/1276b9e3-5337-47fc-bcdd-7ce5f5a2fac0" />
+
+
+ 
+   
+
+
 
 
 
