@@ -73,8 +73,8 @@ This project demonstrates core Active Directory management tasks:
 2. At the lock screen, select **Other user**.
 3. Log in using the User Principal Name (UPN) format:
 
-```text
-user@[your_domain_name].local
+<img width="866" height="533" alt="Screenshot 2026-09-20 192045" src="https://github.com/user-attachments/assets/5465afc6-0d5b-43b3-a180-2c09bdcb2e00" />
+
 
 
 
