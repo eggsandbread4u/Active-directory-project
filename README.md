@@ -21,7 +21,8 @@ The first step is to set up the environment. A window sever 2025 for domain cont
 
 ---
 
-### Step 2: Once that's done you'll install active directory tools by clicking on manage tab and select 'Add roles and features' From server role you can download a variety of roles.
+### Step 2: Install Active directory domain services
+Once that's done you'll install active directory tools by clicking on manage tab and select 'Add roles and features' From server role you can download a variety of roles.
 
 <img width="894" height="580" alt="Screenshot 2026-09-21 100219" src="https://github.com/user-attachments/assets/3e8b1e85-70b1-41c6-bbfb-a1a82344352d" />
 
@@ -32,6 +33,7 @@ To see whether the desired roles have been installed you can simply click on the
 ---
 
 ### Step 3: Setting up your first user
+
 1. To set up a user go to tools tab and click on 'Active directory Users and Computers'
 
 <img width="622" height="186" alt="Screenshot 2026-09-20 191713" src="https://github.com/user-attachments/assets/dc14618b-aea3-4c05-9c8e-166087b9175d" /> 
