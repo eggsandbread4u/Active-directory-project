@@ -16,6 +16,7 @@ This project demonstrates core Active Directory management tasks:
 * Designing an **Organizational Unit (OU)** structure (`IT` and `Sales`).
 * Provisioning user accounts with specific permissions.
 * Authenticating a **Windows 11 Enterprise** client PC against the domain.
+* Deploying a Group Policy Object (GPO)
 
 ---
 
